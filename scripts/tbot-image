@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 -m tbot sendimage $@
+$(whereis python3| awk -F" " '{ print $2}' -m tbot sendimage $@
