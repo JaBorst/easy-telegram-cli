@@ -1,0 +1,1 @@
+from .TBot import get_conf
