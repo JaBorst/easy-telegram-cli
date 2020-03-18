@@ -1,2 +1,2 @@
 #!/bin/bash
-python -m tbot senddocument "$@"
+python3 -m tbot senddocument "$@"
