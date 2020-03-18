@@ -6,11 +6,11 @@ For now it is *only* meant to send messages from the command line, so the only i
 
 # Configuration
 Configuration is done by placing a .tbot.conf file in one of the following directories
-    * $HOME/.tbot.conf
-    * $HOME/tbot.conf
-    * ./.tbot.conf
-    * ./tbot.conf
-    * /etc/tbot.conf
+   * $HOME/.tbot.conf
+   * $HOME/tbot.conf
+   * ./.tbot.conf
+   * ./tbot.conf
+   * /etc/tbot.conf
 
 The locations will be checked in the order above, that means a  tbot.conf file in $HOME is preferred over a system wide /etc/tbot.conf.
 
