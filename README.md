@@ -15,9 +15,10 @@ Configuration is done by placing a .tbot.conf file in one of the following direc
 The locations will be checked in the order above, that means a  tbot.conf file in $HOME is preferred over a system wide /etc/tbot.conf.
 
 The file should contain the bot token and chat id like:
+```
 token="your_token_here" 
 chatid="your_chat_here"
-
+```
 ### Note:
   The path resolution for files has a problem when the current absolute path contains a symlink.
   When in doubt: Use absolute paths specifications to be safe!
